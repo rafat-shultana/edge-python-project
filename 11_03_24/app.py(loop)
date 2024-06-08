@@ -1,0 +1,17 @@
+# studentes = ['Rabby', 'rafi', 'bokhary', 'nodi', 'alim', 'piash']
+# print(studentes)
+# for ami in studentes:  (ekane ja dibo tai print e dite hobe)
+#        print(ami) 
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for n in numbers[ 0:10:2 ]:
+#     print(n * "*")
+# print(numbers.index(0))
+
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print(numbers)
+#n reserve key word ja loop e only use hoi,for loop lekar niyom eta, loop is a control stucture because we control it by using 1st valu, last vale
+for n in range(11): 
+     for i in range(10): #10 mane 9 porjonto hobe   
+       print(i, n)    #1st e n er value 1-9 print korbe tokon n er valo 0 thakbe,i er value abar 1-9 gelo abar n value 1 hobe and i er value 10 asha porjonto repet colbe  
+#poti ber i er value 1-9 er por n er value 1 increase hobe
